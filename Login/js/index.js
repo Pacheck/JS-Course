@@ -8,10 +8,7 @@ let campoPassword = document.querySelector('#campo-password');
 
 let mensagemErro = document.querySelector('#mensagem-erro')
 
-
-
-
-
+// Object section - at test
 
 var contasCriadas = new Array();
 
@@ -33,9 +30,7 @@ id.senha = 1234;
 
 contasCriadas.push(id)
 
-//console.log(contasCriadas[0].login);
-
-
+//Click-event section
 
 botao.addEventListener('click', function(){
 
@@ -44,6 +39,7 @@ botao.addEventListener('click', function(){
     // Chama as funções de callback
 })
 
+//'callback' function, verify lg and passw
 function chamaFunc(campoLogin, campoPassword, mensagemErro){
 
 
@@ -70,48 +66,3 @@ function chamaFunc(campoLogin, campoPassword, mensagemErro){
     }
 
 }
-
-////////////////////////////////////////////////////////
-
-
-
-
-
-
-/*
-function verifica(campoLogin, campoPassword){
-
-    if(campoLogin.value == loginPacheck && 
-     campoPassword.value == passwordPacheck){
-
-        window.location = 'logado.html';
-        
-    }else if(campoLogin.value != loginPacheck
-        && campoPassword.value == passwordPacheck){
-
-        mensagemErro.innerText = 'O Login não é válido';
-        campoLogin.value = '';
-        campoPassword.value = '';
-        campoLogin.focus();
-
-    }else if(campoPassword.value != passwordPacheck
-        && campoLogin.value == loginPacheck){
-
-        mensagemErro.innerText = 'A senha não é válida';
-
-        campoPassword.value = '';
-        campoPassword.focus();
-
-    }else{
-        
-        mensagemErro.innerText = 'O login e senha não são válidos!';
-
-        campoLogin.value = '';
-        campoPassword.value = '';
-        campoLogin.focus();
-
-    }
-
-
-}
-*/
