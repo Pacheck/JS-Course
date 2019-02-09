@@ -35,7 +35,6 @@ botao.addEventListener('click', function(){
 //'callback' function, verify lg and passw
 function chamaFunc(campoLogin, campoPassword, mensagemErro){
 
-
     if(campoLogin.value == ''
     && campoPassword.value == ''){
 

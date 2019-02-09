@@ -2,8 +2,7 @@
 
 function verificaConta(){
 
-
-
+    // Test
 }
 
 
@@ -16,8 +15,7 @@ function verifica(campoLogin, campoPassword, contasCriadas){
 
                 console.log("Deu certo porra.")
 
-            }
-
+        }
 
     }
 
