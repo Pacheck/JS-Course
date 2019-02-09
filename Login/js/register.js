@@ -13,10 +13,8 @@ function registrar(id, contasCriadas, login, senha){
     let criarSenha = prompt('Digite a sua senha desejada');
 
     for(let i = 0; i <= contasCriadas.length; i++){
-
-
+        //Fase de teste
     }
 
     // Testando
-
 }
