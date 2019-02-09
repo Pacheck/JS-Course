@@ -1,9 +1,7 @@
-//let id = 1;
 
 function verificaConta(){
 
-
-
+    // preciso terminar
 }
 
 
@@ -14,10 +12,9 @@ function verifica(campoLogin, campoPassword, contasCriadas){
         if(campoLogin.value == contasCriadas[i].login
             && campoPassword.value == contasCriadas[i].senha){
 
-                console.log("Deu certo porra.")
+                console.log("Deu certo ")
 
-            }
-
+        }
 
     }
 
