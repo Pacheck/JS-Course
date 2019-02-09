@@ -1,8 +1,7 @@
-//let id = 1;
 
 function verificaConta(){
 
-    // Test
+    // preciso terminar
 }
 
 
