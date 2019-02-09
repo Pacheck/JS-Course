@@ -8,7 +8,7 @@ let campoPassword = document.querySelector('#campo-password');
 
 let mensagemErro = document.querySelector('#mensagem-erro')
 
-// Object section - at test
+// Object (account-test-in-fake-database) section - at test
 
 var contasCriadas = new Array();
 
@@ -16,19 +16,12 @@ let id = 0;
 
 id = new Object()
 
-id.login = 'Pedro';
+id.login = 'Teste';
 id.senha = 123;
 
 contasCriadas.push(id)
 
 id++;
-
-id = new Object()
-
-id.login = 'Pacheco';
-id.senha = 1234;
-
-contasCriadas.push(id)
 
 //Click-event section
 
